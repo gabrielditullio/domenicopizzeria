@@ -7,6 +7,8 @@ import SlideGMN from "@/components/slides/SlideGMN";
 import SlideRanking from "@/components/slides/SlideRanking";
 import SlideGoogleAds from "@/components/slides/SlideGoogleAds";
 import SlideVolumePesquisa from "@/components/slides/SlideVolumePesquisa";
+import SlideMetaAds from "@/components/slides/SlideMetaAds";
+import SlideContraste from "@/components/slides/SlideContraste";
 
 const Index = () => {
   return (
@@ -19,6 +21,8 @@ const Index = () => {
       <SlideRanking />
       <SlideGoogleAds />
       <SlideVolumePesquisa />
+      <SlideMetaAds />
+      <SlideContraste />
     </Presentation>
   );
 };
