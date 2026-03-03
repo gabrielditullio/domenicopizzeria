@@ -12,6 +12,9 @@ import SlideContraste from "@/components/slides/SlideContraste";
 import SlideDiagnostico from "@/components/slides/SlideDiagnostico";
 import SlideGap from "@/components/slides/SlideGap";
 import SlideResumo from "@/components/slides/SlideResumo";
+import SlideTagline from "@/components/slides/SlideTagline";
+import SlideQuemSouEu from "@/components/slides/SlideQuemSouEu";
+import SlideCTA from "@/components/slides/SlideCTA";
 
 const Index = () => {
   return (
@@ -29,6 +32,9 @@ const Index = () => {
       <SlideDiagnostico />
       <SlideGap />
       <SlideResumo />
+      <SlideTagline />
+      <SlideQuemSouEu />
+      <SlideCTA />
     </Presentation>
   );
 };
