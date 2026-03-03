@@ -5,6 +5,8 @@ import SlideOQueJaTem from "@/components/slides/SlideOQueJaTem";
 import SlideSite from "@/components/slides/SlideSite";
 import SlideGMN from "@/components/slides/SlideGMN";
 import SlideRanking from "@/components/slides/SlideRanking";
+import SlideGoogleAds from "@/components/slides/SlideGoogleAds";
+import SlideVolumePesquisa from "@/components/slides/SlideVolumePesquisa";
 
 const Index = () => {
   return (
@@ -15,6 +17,8 @@ const Index = () => {
       <SlideSite />
       <SlideGMN />
       <SlideRanking />
+      <SlideGoogleAds />
+      <SlideVolumePesquisa />
     </Presentation>
   );
 };
