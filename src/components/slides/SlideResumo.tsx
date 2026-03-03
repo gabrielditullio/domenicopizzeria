@@ -9,7 +9,7 @@ const fadeUp = (delay: number) => ({
 
 const rows = [
   { area: "Instagram/Redes", ok: true, detail: "3 redes ativas e vinculadas" },
-  { area: "Website", ok: true, detail: "Core Web Vitals APROVADO + tour 360°" },
+  { area: "Website", ok: true, detail: "Site rápido e funcionando bem + tour 360°" },
   { area: "Google Meu Negócio", ok: true, detail: "95% — Excelente (19/20 métricas BOM)" },
   { area: "Avaliações", ok: true, detail: "2.480 (1º lugar!) — 100% respondidas" },
   { area: "Ranking Local", ok: true, detail: "1º lugar no segmento em BH" },

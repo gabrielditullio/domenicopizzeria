@@ -11,7 +11,7 @@ const lines = [
   "1º lugar em avaliações.",
   "100% das avaliações respondidas.",
   "Tour 360°. 8 idiomas. Delivery ativo.",
-  "Core Web Vitals aprovado.",
+  "Seu site está rápido e funcionando bem.",
 ];
 
 const subLines = [

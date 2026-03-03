@@ -14,7 +14,7 @@ const checks = [
   "Perfil atualizado diariamente (postagens e fotos)",
   "Site próprio com tour 360°, delivery e cardápio digital",
   "3 redes sociais ativas (Twitter, Instagram, Facebook)",
-  "Core Web Vitals APROVADO pelo Google",
+  "Seu site está rápido e funcionando bem",
   "GTM e Analytics instalados e funcionando",
   "Site traduzido em 8 idiomas",
 ];
