@@ -9,6 +9,9 @@ import SlideGoogleAds from "@/components/slides/SlideGoogleAds";
 import SlideVolumePesquisa from "@/components/slides/SlideVolumePesquisa";
 import SlideMetaAds from "@/components/slides/SlideMetaAds";
 import SlideContraste from "@/components/slides/SlideContraste";
+import SlideDiagnostico from "@/components/slides/SlideDiagnostico";
+import SlideGap from "@/components/slides/SlideGap";
+import SlideResumo from "@/components/slides/SlideResumo";
 
 const Index = () => {
   return (
@@ -23,6 +26,9 @@ const Index = () => {
       <SlideVolumePesquisa />
       <SlideMetaAds />
       <SlideContraste />
+      <SlideDiagnostico />
+      <SlideGap />
+      <SlideResumo />
     </Presentation>
   );
 };
