@@ -1,13 +1,14 @@
 import Presentation from "@/components/Presentation";
 import SlideCover from "@/components/slides/SlideCover";
+import SlideContexto from "@/components/slides/SlideContexto";
+import SlideOQueJaTem from "@/components/slides/SlideOQueJaTem";
 
 const Index = () => {
   return (
     <Presentation>
       <SlideCover />
-      <div className="min-h-screen bg-structural flex items-center justify-center">
-        <p className="font-montserrat font-bold text-2xl text-sovereign">Próximos slides em breve...</p>
-      </div>
+      <SlideContexto />
+      <SlideOQueJaTem />
     </Presentation>
   );
 };
