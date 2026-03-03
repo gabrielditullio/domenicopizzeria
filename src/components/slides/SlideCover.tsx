@@ -8,10 +8,10 @@ const fadeUp = (delay: number) => ({
 
 const SlideCover = () => {
   return (
-    <div className="relative min-h-screen bg-sovereign flex flex-col justify-between px-6 md:px-16 lg:px-24 py-8 md:py-12 overflow-hidden">
+    <div className="relative min-h-screen bg-sovereign flex flex-col px-6 md:px-16 lg:px-24 py-8 md:py-12 overflow-hidden">
       {/* Diagonal decorative lines */}
       <div className="absolute top-0 left-0 w-64 h-64 pointer-events-none">
-        <svg className="w-full h-full opacity-5" viewBox="0 0 256 256">
+        <svg className="w-full h-full opacity-[0.03]" viewBox="0 0 256 256">
           <line x1="0" y1="0" x2="256" y2="256" stroke="white" strokeWidth="1" />
           <line x1="40" y1="0" x2="256" y2="216" stroke="white" strokeWidth="1" />
           <line x1="0" y1="40" x2="216" y2="256" stroke="white" strokeWidth="1" />
@@ -19,7 +19,7 @@ const SlideCover = () => {
         </svg>
       </div>
       <div className="absolute bottom-0 right-0 w-64 h-64 pointer-events-none">
-        <svg className="w-full h-full opacity-5" viewBox="0 0 256 256">
+        <svg className="w-full h-full opacity-[0.03]" viewBox="0 0 256 256">
           <line x1="256" y1="256" x2="0" y2="0" stroke="white" strokeWidth="1" />
           <line x1="216" y1="256" x2="0" y2="40" stroke="white" strokeWidth="1" />
           <line x1="256" y1="216" x2="40" y2="0" stroke="white" strokeWidth="1" />
@@ -34,8 +34,8 @@ const SlideCover = () => {
         </span>
       </motion.div>
 
-      {/* Main content */}
-      <div className="flex-1 flex flex-col justify-center max-w-4xl">
+      {/* Main content — centered */}
+      <div className="flex-1 flex flex-col items-center justify-center text-center">
         <motion.p
           {...fadeUp(0.2)}
           className="font-montserrat font-bold text-sm text-tactical uppercase tracking-[0.25em] mb-6"
@@ -45,9 +45,9 @@ const SlideCover = () => {
 
         <motion.h1
           {...fadeUp(0.4)}
-          className="font-montserrat font-black text-3xl md:text-5xl lg:text-[48px] text-structural leading-tight mb-4"
+          className="font-montserrat font-black text-[30px] md:text-[48px] lg:text-[56px] text-structural leading-[1.1] mb-4"
         >
-          DOMENICO PIZZERIA E TRATTORIA
+          DOMENICO PIZZERIA<br />E TRATTORIA
         </motion.h1>
 
         <motion.p
@@ -66,12 +66,14 @@ const SlideCover = () => {
           {...fadeUp(1.0)}
           className="font-lora text-base md:text-lg text-tactical max-w-2xl leading-relaxed mb-8"
         >
-          Análise de presença digital, visibilidade no Google e oportunidades de crescimento via tráfego pago
+          Análise de presença digital, visibilidade no Google e oportunidades
+          <br className="hidden md:block" />
+          de crescimento via tráfego pago
         </motion.p>
 
         <motion.div
           {...fadeUp(1.2)}
-          className="flex flex-wrap gap-6 md:gap-10 font-montserrat font-bold text-sm text-tactical"
+          className="flex flex-wrap justify-center gap-6 md:gap-10 font-montserrat font-bold text-sm text-tactical"
         >
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 bg-rupture inline-block" />
@@ -91,7 +93,7 @@ const SlideCover = () => {
       {/* Footer */}
       <motion.footer
         {...fadeUp(1.4)}
-        className="font-montserrat text-xs text-tactical/60 pt-4"
+        className="font-montserrat text-xs text-tactical/60 text-center pt-4"
       >
         Março 2026 · Confidencial · Preparado por Gabriel Di Tullio — DT Coproduções
       </motion.footer>
