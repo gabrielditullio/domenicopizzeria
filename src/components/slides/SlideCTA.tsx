@@ -8,9 +8,9 @@ const fadeUp = (delay: number) => ({
 
 const steps = [
   { num: "1", border: "#E71D36", color: "#E71D36", text: "Agendar reunião de 30 minutos" },
-  { num: "2", border: "#F1C40F", color: "#F1C40F", text: "Entender volume e ticket do delivery vs salão" },
-  { num: "3", border: "#2ECC71", color: "#2ECC71", text: "Plano de tráfego pago focado em conversão" },
-  { num: "4", border: "#0A1931", color: "#0A1931", text: "Capturar as 12.500+ buscas mensais perdidas" },
+  { num: "2", border: "#F1C40F", color: "#F1C40F", text: "Mapear os objetivos da Domenico" },
+  { num: "3", border: "#2ECC71", color: "#2ECC71", text: "Detalhar cada ponto identificado" },
+  { num: "4", border: "#0A1931", color: "#0A1931", text: "Plano de ação com prioridades" },
 ];
 
 const SlideCTA = () => (
@@ -19,7 +19,7 @@ const SlideCTA = () => (
     <div className="bg-structural flex-1 px-6 md:px-16 lg:px-24 py-12 md:py-16">
       <div className="max-w-4xl mx-auto">
         <motion.h2 {...fadeUp(0)} className="font-montserrat font-black text-2xl md:text-4xl text-implacable leading-tight mb-4">
-          VAMOS TIRAR ESSE PROJETO DO PAPEL?
+          VAMOS APROFUNDAR ESSE DIAGNÓSTICO.
         </motion.h2>
 
         <motion.p {...fadeUp(0.15)} className="font-montserrat font-bold text-base md:text-lg text-rupture mb-6">
