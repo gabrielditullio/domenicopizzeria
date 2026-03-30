@@ -14,9 +14,9 @@ const slideIn = (delay: number) => ({
 });
 
 const SlideQuemSouEu = () => (
-  <div className="relative min-h-screen bg-structural px-6 md:px-16 lg:px-24 py-12 md:py-20 overflow-hidden">
+  <div className="relative min-h-screen px-6 md:px-16 lg:px-24 py-12 md:py-20 overflow-hidden" style={{ backgroundColor: "rgba(18, 18, 18, 1)" }}>
     {/* Faixa diagonal decorativa */}
-    <div className="absolute bottom-0 left-0 w-full h-64 bg-sovereign/[0.03] -skew-y-3 origin-bottom-left" />
+    <div className="absolute bottom-0 left-0 w-full h-64 -skew-y-3 origin-bottom-left" />
 
     <div className="relative max-w-4xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12 items-start">
       {/* Foto placeholder */}
@@ -36,7 +36,7 @@ const SlideQuemSouEu = () => (
           QUEM SOU EU
         </motion.span>
 
-        <motion.h2 {...slideIn(0.3)} className="font-montserrat font-black text-2xl md:text-[28px] text-implacable mb-1">
+        <motion.h2 {...slideIn(0.3)} className="font-montserrat font-black text-2xl md:text-[28px] text-white mb-1">
           GABRIEL DI TULLIO
         </motion.h2>
 
@@ -46,7 +46,7 @@ const SlideQuemSouEu = () => (
 
         <motion.div {...slideIn(0.5)} className="w-10 h-[2px] bg-rupture mb-5" />
 
-        <motion.p {...slideIn(0.6)} className="font-lora text-base text-implacable leading-relaxed mb-4">
+        <motion.p {...slideIn(0.6)} className="font-lora text-base text-white leading-relaxed mb-4">
           Especialista em presença digital e performance para restaurantes e pizzarias, com certificação no Facebook e Google.
         </motion.p>
 
@@ -54,11 +54,11 @@ const SlideQuemSouEu = () => (
           A maior certificação que temos são nossos resultados.
         </motion.p>
 
-        <motion.p {...slideIn(0.8)} className="font-lora text-base text-implacable leading-relaxed mb-3">
+        <motion.p {...slideIn(0.8)} className="font-lora text-base text-white leading-relaxed mb-3">
           Este diagnóstico foi elaborado com base exclusivamente em dados públicos, utilizando as seguintes ferramentas:
         </motion.p>
 
-        <motion.ul {...slideIn(0.9)} className="font-lora text-sm text-implacable leading-relaxed space-y-1.5 list-none">
+        <motion.ul {...slideIn(0.9)} className="font-lora text-sm text-white leading-relaxed space-y-1.5 list-none">
           <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google Meu Negócio — Perfil de negócio no Google por unidade</li>
           <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google PageSpeed Insights — performance real e laboratório</li>
           <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google Ads Transparency Center — biblioteca de anúncios do Google</li>
