@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import gabrielPhoto from "@/assets/gabriel-photo.jpg";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 20 },
@@ -21,9 +22,9 @@ const SlideQuemSouEu = () => (
       {/* Foto placeholder */}
       <motion.div
         {...fadeUp(0)}
-        className="w-48 md:w-60 h-60 md:h-[300px] border-2 border-tactical/40 flex items-center justify-center shrink-0"
+        className="w-48 md:w-60 h-60 md:h-[300px] border-2 border-tactical/40 shrink-0 overflow-hidden"
       >
-        <span className="font-montserrat font-bold text-2xl text-tactical/40">FOTO</span>
+        <img src={gabrielPhoto} alt="Gabriel Di Tullio" className="w-full h-full object-cover" />
       </motion.div>
 
       {/* Texto */}
