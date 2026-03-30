@@ -46,7 +46,7 @@ const SlideQuemSouEu = () => (
 
         <motion.div {...slideIn(0.5)} className="w-10 h-[2px] bg-rupture mb-5" />
 
-        <motion.p {...slideIn(0.6)} className="font-lora text-base text-implacable leading-relaxed mb-4">
+        <motion.p {...slideIn(0.6)} className="font-lora text-base text-white leading-relaxed mb-4">
           Especialista em presença digital e performance para restaurantes e pizzarias, com certificação no Facebook e Google.
         </motion.p>
 
