@@ -54,7 +54,7 @@ const SlideQuemSouEu = () => (
           A maior certificação que temos são nossos resultados.
         </motion.p>
 
-        <motion.p {...slideIn(0.8)} className="font-lora text-base text-implacable leading-relaxed mb-3">
+        <motion.p {...slideIn(0.8)} className="font-lora text-base text-white leading-relaxed mb-3">
           Este diagnóstico foi elaborado com base exclusivamente em dados públicos, utilizando as seguintes ferramentas:
         </motion.p>
 
