@@ -51,21 +51,23 @@ const SlideCTA = () => (
     {/* Metade inferior */}
     <div className="bg-sovereign px-6 md:px-16 lg:px-24 py-12 md:py-16 flex flex-col items-center text-center">
       <motion.a
-        {...fadeUp(1.0)}
-        href="https://api.whatsapp.com/send/?phone=5511996035995&text=Gabriel%2C+vi+o+diagnostico+e+quero+marcar+uma+reuni%C3%A3o%21&type=phone_number&app_absent=0"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block font-montserrat font-bold text-lg md:text-xl bg-rupture text-white px-16 md:px-20 py-5 md:py-6 hover:bg-[#C41830] transition-colors"
-        whileHover={{ scale: 1.04 }}
-        whileTap={{ scale: 0.97 }}
+        initial={{ opacity: 0, y: 20 }}
         animate={{
+          opacity: 1,
+          y: 0,
           boxShadow: [
             "0 0 0 0 rgba(231,29,54,0.5)",
             "0 0 0 16px rgba(231,29,54,0)",
             "0 0 0 0 rgba(231,29,54,0.5)",
           ],
         }}
-        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 0.6, delay: 1.0, ease: [0.25, 0.46, 0.45, 0.94] as const, boxShadow: { duration: 2, repeat: Infinity, ease: "easeInOut", delay: 1.6 } }}
+        href="https://api.whatsapp.com/send/?phone=5511996035995&text=Gabriel%2C+vi+o+diagnostico+e+quero+marcar+uma+reuni%C3%A3o%21&type=phone_number&app_absent=0"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block font-montserrat font-bold text-lg md:text-xl bg-rupture text-white px-16 md:px-20 py-5 md:py-6 hover:bg-[#C41830] transition-colors"
+        whileHover={{ scale: 1.04 }}
+        whileTap={{ scale: 0.97 }}
       >
         AGENDE AGORA
       </motion.a>
