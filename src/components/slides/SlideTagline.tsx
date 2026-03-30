@@ -17,14 +17,14 @@ const SlideTagline = () => (
         {...fadeUp(0)}
         className="font-montserrat font-bold text-sm md:text-xl text-tactical uppercase tracking-[0.25em] mb-8 md:mb-12"
       >
-        ALGUNS VENDEM TRÁFEGO PAGO, OUTROS ESTRATÉGIA...
+        VOCÊS CONSTRUÍRAM O CARRO MAIS RÁPIDO DA PISTA...
       </motion.p>
 
       <motion.div
         {...fadeUp(0.6)}
       >
         <p className="font-montserrat font-black text-3xl md:text-5xl lg:text-[56px] text-structural leading-[1.2] mb-2">
-          NÓS OFERECEMOS
+          AGORA SÓ FALTA
         </p>
         <motion.span
           initial={{ opacity: 0, scale: 0.9 }}
@@ -32,7 +32,7 @@ const SlideTagline = () => (
           transition={{ duration: 0.4, delay: 1.2, ease: [0.25, 0.46, 0.45, 0.94] as const }}
           className="inline-block font-montserrat font-black text-3xl md:text-5xl lg:text-[56px] text-structural bg-success px-3 py-1"
         >
-          RESULTADO!
+          LIGAR O MOTOR.
         </motion.span>
       </motion.div>
     </div>
