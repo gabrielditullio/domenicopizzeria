@@ -46,16 +46,24 @@ const SlideQuemSouEu = () => (
         <motion.div {...slideIn(0.5)} className="w-10 h-[2px] bg-rupture mb-5" />
 
         <motion.p {...slideIn(0.6)} className="font-lora text-base text-implacable leading-relaxed mb-4">
-          Com mais de 6 anos de experiência em marketing digital, sou o fundador da DT Coproduções.
+          Especialista em presença digital e performance para restaurantes e pizzarias, com certificação no Facebook e Google.
         </motion.p>
 
         <motion.p {...slideIn(0.7)} className="font-lora italic text-lg text-rupture leading-relaxed mb-4">
           A maior certificação que temos são nossos resultados.
         </motion.p>
 
-        <motion.p {...slideIn(0.8)} className="font-lora text-base text-implacable leading-relaxed">
-          Tivemos o privilégio de gerar mais de R$50 milhões de faturamento com nosso trabalho. Somente em 2025 foram mais de R$3 milhões.
+        <motion.p {...slideIn(0.8)} className="font-lora text-base text-implacable leading-relaxed mb-3">
+          Este diagnóstico foi elaborado com base exclusivamente em dados públicos, utilizando as seguintes ferramentas:
         </motion.p>
+
+        <motion.ul {...slideIn(0.9)} className="font-lora text-sm text-implacable leading-relaxed space-y-1.5 list-none">
+          <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google Meu Negócio — Perfil de negócio no Google por unidade</li>
+          <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google PageSpeed Insights — performance real e laboratório</li>
+          <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google Ads Transparency Center — biblioteca de anúncios do Google</li>
+          <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Meta Ads Library — campanhas ativas no Instagram e Facebook</li>
+          <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google Keyword Planner — volume de pesquisa no Google por palavras</li>
+        </motion.ul>
       </div>
     </div>
   </div>
