@@ -19,7 +19,7 @@ const SlideCTA = () => (
     <div className="bg-structural flex-1 px-6 md:px-16 lg:px-24 py-12 md:py-16">
       <div className="max-w-4xl mx-auto">
         <motion.h2 {...fadeUp(0)} className="font-montserrat font-black text-2xl md:text-4xl text-implacable leading-tight mb-4">
-          VAMOS TIRAR ESSE PROJETO DO PAPEL?
+          VAMOS APROFUNDAR ESSE DIAGNÓSTICO.
         </motion.h2>
 
         <motion.p {...fadeUp(0.15)} className="font-montserrat font-bold text-base md:text-lg text-rupture mb-6">
