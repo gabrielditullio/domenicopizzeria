@@ -16,7 +16,7 @@ const slideIn = (delay: number) => ({
 const SlideQuemSouEu = () => (
   <div className="relative min-h-screen px-6 md:px-16 lg:px-24 py-12 md:py-20 overflow-hidden" style={{ backgroundColor: "rgba(18, 18, 18, 1)" }}>
     {/* Faixa diagonal decorativa */}
-    <div className="absolute bottom-0 left-0 w-full h-64 bg-sovereign/[0.03] -skew-y-3 origin-bottom-left" />
+    <div className="absolute bottom-0 left-0 w-full h-64 -skew-y-3 origin-bottom-left" />
 
     <div className="relative max-w-4xl mx-auto flex flex-col md:flex-row gap-8 md:gap-12 items-start">
       {/* Foto placeholder */}
