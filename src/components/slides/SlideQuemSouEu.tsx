@@ -58,7 +58,7 @@ const SlideQuemSouEu = () => (
           Este diagnóstico foi elaborado com base exclusivamente em dados públicos, utilizando as seguintes ferramentas:
         </motion.p>
 
-        <motion.ul {...slideIn(0.9)} className="font-lora text-sm text-implacable leading-relaxed space-y-1.5 list-none">
+        <motion.ul {...slideIn(0.9)} className="font-lora text-sm text-white leading-relaxed space-y-1.5 list-none">
           <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google Meu Negócio — Perfil de negócio no Google por unidade</li>
           <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google PageSpeed Insights — performance real e laboratório</li>
           <li><span className="font-montserrat font-bold text-xs text-rupture">●</span> Google Ads Transparency Center — biblioteca de anúncios do Google</li>
