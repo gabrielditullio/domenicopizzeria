@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import gabrielPhoto from "@/assets/gabriel-photo.jpg";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 20 },
