@@ -43,7 +43,7 @@ const SlideCTA = () => (
         </div>
 
         <motion.p {...fadeUp(0.9)} className="font-lora italic text-base text-tactical">
-          Clique abaixo e agende uma reunião estratégica gratuita comigo de 20 minutos.
+          Clique abaixo e agende uma reunião estratégica gratuita comigo de 30 minutos, sem compromisso.
         </motion.p>
       </div>
     </div>
@@ -52,25 +52,42 @@ const SlideCTA = () => (
     <div className="bg-sovereign px-6 md:px-16 lg:px-24 py-12 md:py-16 flex flex-col items-center text-center">
       <motion.a
         {...fadeUp(1.0)}
-        href="#"
-        className="inline-block font-montserrat font-bold text-base bg-rupture text-white px-12 py-4 mb-8 hover:bg-[#C41830] transition-colors"
-        whileHover={{ scale: 1.02 }}
-        animate={{ boxShadow: ["0 0 0 0 rgba(231,29,54,0.4)", "0 0 0 12px rgba(231,29,54,0)", "0 0 0 0 rgba(231,29,54,0.4)"] }}
+        href="https://api.whatsapp.com/send/?phone=5511996035995&text=Gabriel%2C+vi+o+diagnostico+e+quero+marcar+uma+reuni%C3%A3o%21&type=phone_number&app_absent=0"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block font-montserrat font-bold text-lg md:text-xl bg-rupture text-white px-16 md:px-20 py-5 md:py-6 hover:bg-[#C41830] transition-colors"
+        whileHover={{ scale: 1.04 }}
+        whileTap={{ scale: 0.97 }}
+        animate={{
+          boxShadow: [
+            "0 0 0 0 rgba(231,29,54,0.5)",
+            "0 0 0 16px rgba(231,29,54,0)",
+            "0 0 0 0 rgba(231,29,54,0.5)",
+          ],
+        }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
         AGENDE AGORA
       </motion.a>
 
-      <motion.p {...fadeUp(1.2)} className="font-montserrat font-black text-5xl text-structural/20 mb-4">
+      <motion.p {...fadeUp(1.1)} className="font-lora text-sm text-tactical mt-4 mb-10">
+        Ou responda diretamente no WhatsApp.
+      </motion.p>
+
+      <motion.p {...fadeUp(1.2)} className="font-lora italic text-base text-tactical/80 max-w-xl mb-12">
+        Este diagnóstico é seu. Use como quiser, compartilhe com quem quiser, independente de qualquer próximo passo.
+      </motion.p>
+
+      <motion.p {...fadeUp(1.3)} className="font-montserrat font-black text-5xl text-structural/20 mb-4">
         GDT
       </motion.p>
 
-      <motion.p {...fadeUp(1.3)} className="font-montserrat text-sm text-tactical mb-4">
+      <motion.p {...fadeUp(1.4)} className="font-montserrat text-sm text-tactical mb-4">
         gabrielditullio.com.br
       </motion.p>
 
-      <motion.p {...fadeUp(1.4)} className="font-lora text-xs text-tactical/60">
-        Confidencial — Domenico Pizzeria e Trattoria
+      <motion.p {...fadeUp(1.5)} className="font-lora text-xs text-tactical/60">
+        Confidencial — preparado exclusivamente para a Domenico Pizzeria e Trattoria
       </motion.p>
     </div>
   </div>
