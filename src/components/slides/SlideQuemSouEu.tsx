@@ -36,7 +36,7 @@ const SlideQuemSouEu = () => (
           QUEM SOU EU
         </motion.span>
 
-        <motion.h2 {...slideIn(0.3)} className="font-montserrat font-black text-2xl md:text-[28px] text-implacable mb-1">
+        <motion.h2 {...slideIn(0.3)} className="font-montserrat font-black text-2xl md:text-[28px] text-white mb-1">
           GABRIEL DI TULLIO
         </motion.h2>
 
